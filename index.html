@@ -1,0 +1,250 @@
+<html>
+    <head>
+        <title>Smart Parking</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">  
+        </script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js">
+        </script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js">
+        </script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script type="text/javascript">
+            var i = 0;
+            var inputText;
+            function buttonClick() {
+            document.getElementById('inc').value = ++i;
+            inputText = document.getElementById('SN').value;
+            document.getElementById('SN').value = '';
+        }
+            $(document).ready(function(){
+                $("#btn1").click(function(){
+                    $("table").append("<tr><td>"+i+"</td><td>"+inputText+"</td></tr>");
+                })
+            })
+    
+        </script>
+        <script>
+            $(document).ready(function(){
+                $(".slot").click(function(){
+                    $(this).toggleClass("booked");
+                });
+                
+                $("#A1").click(function(){
+                    $("#a1").toggle();
+                });
+                $("#A2").click(function(){
+                    $("#a2").toggle();
+                });
+                $("#A3").click(function(){
+                    $("#a3").toggle();
+                });
+                $("#A4").click(function(){
+                    $("#a4").toggle();
+                });
+                $("#A5").click(function(){
+                    $("#a5").toggle();
+                });
+                $("#A6").click(function(){
+                    $("#a6").toggle();
+                });
+                $("#A7").click(function(){
+                    $("#a7").toggle();
+                });
+                $("#A8").click(function(){
+                    $("#a8").toggle();
+                });
+                $("#B1").click(function(){
+                    $("#b1").toggle();
+                });
+                $("#B2").click(function(){
+                    $("#b2").toggle();
+                });
+                $("#B3").click(function(){
+                    $("#b3").toggle();
+                });
+                $("#B4").click(function(){
+                    $("#b4").toggle();
+                });
+                $("#B5").click(function(){
+                    $("#b5").toggle();
+                });
+                $("#B6").click(function(){
+                    $("#b6").toggle();
+                });
+                $("#B7").click(function(){
+                    $("#b7").toggle();
+                });
+                $("#B8").click(function(){
+                    $("#b8").toggle();
+                });
+            });
+        </script> 
+        <style>
+            body{
+                background-color: black;
+            }
+            .nav-item{
+                text-align: right;
+                /* x */
+            }
+            h2{
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+color: white;
+            }
+            p{
+                color: black;
+               text-align: center;
+               /* font-size: 50px; */
+            }
+            hr{
+                color:white;
+            }
+            table, th, td {
+  border: 1px solid white;
+}
+table{
+    color:azure;
+}
+.slot{
+                width: 110px;
+                height: 90px;
+                border: 2px solid black;
+                color: green;
+                text-align: center;
+            }
+            .booked{
+                background-color: burlywood;
+                
+            }
+
+        </style>
+        
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-sm" style="background-color:#E6C2BF;">
+            <a class="navbar-brand" href="#product&services" style="color: rgb(16, 3, 84);"><b>Product & Services</b></a>
+            <ul class="navbar-nav">
+               
+                <li class="nav-item" style="align-items: right;">
+                    <a class="nav-link active" href="#Entry Sensor/Counter" style="color: rgb(16, 3, 84);"><b>Entry Sensor/Counter</b></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#Parking Lot Sensor" style="color: rgb(16, 3, 84);"><b>Parking Lot Sensor</b></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about" style="color: rgb(16, 3, 84);"><b>About </b></a>
+                </li>
+            </ul>
+        </nav>
+        <div class="container-fluid" style=" text-align: center; font: size 20px;">
+        
+        </div>
+        <br>
+        <div class="container-fluid" style="background-color:#D4AF37">
+            <div class="jumbotron" style="background-color:#FFFF00;" >
+                <h1 style="font-family:'Courier New', Courier, monospace;font-size: 45px;color:black"><b><u>Smart Car Parking</u></b></h1>
+                <div><br><br><br>
+                <i>Searching for a spot has become a daily habit for a lot of people all around the globe.<br> It is a usually a time consuming and frustrating process 
+                    that a person have to go through.<br> How can this problem be fixed? This is where smart parking comes in</i>
+                </div><div>
+                <img src="img/Dark Knight Protocol.jpeg" alt="img" style="border: solid;height:300px;width: 700px;margin-left: 730px;margin-top: -140px;">
+            </div>
+            </div>
+            </div>
+        </div><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <div id="product&services"><h1 style="color:red; font: size 10px;text-shadow:1px 2px 0px rgb(17, 120, 146);"><u>Product & Services</u></h1></div>
+        <div style="background-color: #FFFF00;"><br><br>
+            <div class="project1"> 
+                <img src="img/download.jpeg" style="width: 400px;height: 400px;margin-left: 10px;"><br><br>
+            <a href="assets/login.html">    <button type="button" style="margin-left:10px;padding-left:100px;padding-right:200px;background-color:rgb(127, 179, 251);">Login/SignUP</button></a>
+            <div>
+                <img src="img/map.jpeg" style="width:400px;height: 400px;margin-left:510px;margin-top: -455px;">
+                <button type="button" style="margin-left:510px;margin-top:-30px;padding-left: 100px;padding-right:120px ;background-color:rgb(127, 179, 251);"><a href="assets/map.html" style="text-decoration:none;color: black;">Check Out Space In Map</a></button>
+            </div>
+            <div>
+                <img src="img/book.jpeg" style="width: 400px;height: 400px;margin-left: 1000px;margin-top:-460px;">
+                <button type="button" style="padding-left: 100px;padding-right:200px;margin-left:1000px;margin-top:-30px;background-color:rgb(127, 179, 251) ;">Book Slot Now</button>
+            </div>
+        
+          </div>  
+          <br><br><br>
+        </div>
+        <br><br><br><br><br><br><br><br><br>
+        <div id="Entry Sensor/Counter"><h1 style="color:red; font: size 10px;text-shadow:1px 2px 0px rgb(17, 120, 146);"><u>Entry Sensor/Counter</u></h1></div><br>
+        <br><br><br><br> <center><div> 
+        <table style="background-color: rgb(11, 246, 46);color:black;width: 500px;text-align: center;">
+            <tr>
+              <th>Slip No.</th>
+              <th>Car No.</th>
+            </tr>
+            
+          </table>
+          <br><br>
+          <div class="tab" style="color:aliceblue;">
+            <input type="hidden" id="inc" value=1  ></input>
+            Car No:   <input type="text" id="SN" name="SN">
+         
+          <br><br>
+          <button onclick="buttonClick()" id="btn1" style="background-color:rgb(254, 240, 186);">Car entry detected</button>
+        </div>
+    </div></center>
+    <br><br><br><br><br>
+    
+        <div id="Parking Lot Sensor"><h1 style="color:red; font: size 10px;text-shadow:1px 2px 0px rgb(17, 120, 146);"><u>Parking Lot Sensor</u></h1></div><br>
+        <br><br><br><br>
+            <span style="font-size: 30px;font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;color:mediumaquamarine;margin-left: 640px;">PARKING LOT</span>
+            
+                <div ><br>
+            <div id="parking lot" style="border: 5px solid brown;height: 550px;width: 950px;margin-left: 250px;background-color: white;">
+                <span style="padding:243px;font-size: 20px;color: orange;">Section A &#8595</span>
+                <span style="padding:1px;font-size: 20px;color: orange;">Section B &#8595</span>
+                <div id="A1" class ="slot" style="border-right: 0;margin-left: 140px;margin-top: 80px;">A1<br><p id="a1" style="display:none;"><b>CAR</b></p></div>
+                <div id="A3" class ="slot" style="border-right: 0;margin-left: 140px;margin-top: 1px;">A3<br><p id="a3" style="display:none;"><b>CAR</b></p></div>
+                <div id="A5" class ="slot" style="border-right: 0;margin-left: 140px;margin-top: 1px;">A5<br><p id="a5" style="display:none;"><b>CAR</b></p></div>
+                <div id="A7" class ="slot" style="border-right: 0;margin-left: 140px;margin-top: 1px;">A7<br><p id="a7" style="display:none;"><b>CAR</b></p></div>
+            
+            
+                <div id="A2" class ="slot" style="border-left: 0;margin-left: 350px;margin-top: -363px;">A2<br><p id="a2" style="display:none;"><b>CAR</b></p></div>
+                <div id="A4" class ="slot" style="border-left: 0;margin-left: 350px;margin-top: 1px;">A4<br><p id="a4" style="display:none;"><b>CAR</b></p></div>
+                <div id="A6" class ="slot" style="border-left: 0;margin-left: 350px;margin-top: 1px;">A6<br><p id="a6" style="display:none;"><b>CAR</b></p></div>
+                <div id="A8" class ="slot" style="border-left: 0;margin-left: 350px;margin-top: 1px;">A8<br><p id="a8" style="display:none;"><b>CAR</b></p></div>
+    
+                <div id="B1" class ="slot" style="border-right: 0;margin-left: 463px;margin-top: -363px;">B1<br><p id="b1" style="display:none;"><b>CAR</b></p></div>
+                <div id="B3" class ="slot" style="border-right: 0;margin-left: 463px;margin-top: 1px;">B3<br><p id="b3" style="display:none;"><b>CAR</b></p></div>
+                <div id="B5" class ="slot" style="border-right: 0;margin-left: 463px;margin-top: 1px;">B5<br><p id="b5" style="display:none;"><b>CAR</b></p></div>
+                <div id="B7" class ="slot" style="border-right: 0;margin-left: 463px;margin-top: 1px;">B7<br><p id="b7" style="display:none;"><b>CAR</b></p></div>
+    
+                <div id="B2" class ="slot" style="border-left: 0;margin-left: 670px;margin-top: -363px;">B2<br><p id="b2" style="display:none;"><b>CAR</b></p></div>
+                <div id="B4" class ="slot" style="border-left: 0;margin-left: 670px;margin-top: 1px;">B4<br><p id="b4" style="display:none;"><b>CAR</b></p></div>
+                <div id="B6" class ="slot" style="border-left: 0;margin-left: 670px;margin-top: 1px;">B6<br><p id="b6" style="display:none;"><b>CAR</b></p></div>
+                <div id="B8" class ="slot" style="border-left: 0;margin-left: 670px;margin-top: 1px;">B8<br><p id="b8" style="display:none;"><b>CAR</b></p></div>
+    
+            </div>
+            <div id="entry" style="margin-left: 273px;margin-top:-5px;border: 5px solid white;border-left:0px;border-right:0px;border-bottom:0px;width: 90px;color: red;text-align: center;">EXIT &#8595</div>
+            <div id="entry" style="margin-left: 1070px;margin-top:-29px;border: 5px solid white;border-left:0px;border-right:0px;border-bottom:0px;width: 90px;color: red;text-align: center;">ENTRY &#8593</div>
+            <br><br><br><br><br>
+        </div>
+        <br><br>
+        <div id="about"><h1 style="color:red; font: size 10px;text-shadow:1px 2px 0px rgb(17, 120, 146);"><u>About</u></h1><br><br><br>
+            <img src="img/IMG20220830211123.jpeg" style="width:800px;height:550px;margin-left: 430px;"><br><br><br><br>
+            <B><h3 style="color: #FFFF00;">THE DARK KNIGHT PROTOCOL</h3></B>
+            <h4><i style="color: rgb(124, 120, 120);">MEMBERS</i></h4>
+            <ul style="color: white;"> 
+                <li> 
+                    Pranav
+                </li>
+                <li>
+                    Aryan
+                </li>
+                <li>
+                   Vanshika
+                </li>
+                <li>
+                   Antriksh
+                </li>
+            </ul>
+        <p style="color: white;text-align: right;margin-right: 30px;"><b>2022 &#169 Hackathon</b><hr><hr></p>
+        <p></p>
+    </body>
+</html>

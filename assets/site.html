@@ -1,0 +1,106 @@
+<html>
+    <head>
+       
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                $(".slot").click(function(){
+                    $(this).toggleClass("booked");
+                });
+                
+                $("#A1").click(function(){
+                    $("#a1").toggle();
+                });
+                $("#A2").click(function(){
+                    $("#a2").toggle();
+                });
+                $("#A3").click(function(){
+                    $("#a3").toggle();
+                });
+                $("#A4").click(function(){
+                    $("#a4").toggle();
+                });
+                $("#A5").click(function(){
+                    $("#a5").toggle();
+                });
+                $("#A6").click(function(){
+                    $("#a6").toggle();
+                });
+                $("#A7").click(function(){
+                    $("#a7").toggle();
+                });
+                $("#A8").click(function(){
+                    $("#a8").toggle();
+                });
+                $("#B1").click(function(){
+                    $("#b1").toggle();
+                });
+                $("#B2").click(function(){
+                    $("#b2").toggle();
+                });
+                $("#B3").click(function(){
+                    $("#b3").toggle();
+                });
+                $("#B4").click(function(){
+                    $("#b4").toggle();
+                });
+                $("#B5").click(function(){
+                    $("#b5").toggle();
+                });
+                $("#B6").click(function(){
+                    $("#b6").toggle();
+                });
+                $("#B7").click(function(){
+                    $("#b7").toggle();
+                });
+                $("#B8").click(function(){
+                    $("#b8").toggle();
+                });
+            });
+        </script> 
+        <style>
+            .slot{
+                width: 110px;
+                height: 90px;
+                border: 2px solid black;
+                color: green;
+                text-align: center;
+            }
+            .booked{
+                background-color: burlywood;
+                
+            }
+        </style>
+    </head>
+    <body>
+        <span style="font-size: 40px;font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif">PARKING LOT</span>
+        <BR><BR>
+        <div id="parking lot" style="border: 5px solid black;height: 550px;width: 950px;margin-left: 250px;">
+            <span style="padding:245px;font-size: 20px;color: orange;">Section A &#8595</span>
+            <span style="padding:1px;font-size: 20px;color: orange;">Section B &#8595</span>
+            <div id="A1" class ="slot" style="border-right: 0;margin-left: 140px;margin-top: 80px;">A1<br><p id="a1" style="display:none;"><b>CAR</b></p></div>
+            <div id="A3" class ="slot" style="border-right: 0;margin-left: 140px;margin-top: 1px;">A3<br><p id="a3" style="display:none;"><b>CAR</b></p></div>
+            <div id="A5" class ="slot" style="border-right: 0;margin-left: 140px;margin-top: 1px;">A5<br><p id="a5" style="display:none;"><b>CAR</b></p></div>
+            <div id="A7" class ="slot" style="border-right: 0;margin-left: 140px;margin-top: 1px;">A7<br><p id="a7" style="display:none;"><b>CAR</b></p></div>
+        
+        
+            <div id="A2" class ="slot" style="border-left: 0;margin-left: 350px;margin-top: -378px;">A2<br><p id="a2" style="display:none;"><b>CAR</b></p></div>
+            <div id="A4" class ="slot" style="border-left: 0;margin-left: 350px;margin-top: 1px;">A4<br><p id="a4" style="display:none;"><b>CAR</b></p></div>
+            <div id="A6" class ="slot" style="border-left: 0;margin-left: 350px;margin-top: 1px;">A6<br><p id="a6" style="display:none;"><b>CAR</b></p></div>
+            <div id="A8" class ="slot" style="border-left: 0;margin-left: 350px;margin-top: 1px;">A8<br><p id="a8" style="display:none;"><b>CAR</b></p></div>
+
+            <div id="B1" class ="slot" style="border-right: 0;margin-left: 463px;margin-top: -379px;">B1<br><p id="b1" style="display:none;"><b>CAR</b></p></div>
+            <div id="B3" class ="slot" style="border-right: 0;margin-left: 463px;margin-top: 1px;">B3<br><p id="b3" style="display:none;"><b>CAR</b></p></div>
+            <div id="B5" class ="slot" style="border-right: 0;margin-left: 463px;margin-top: 1px;">B5<br><p id="b5" style="display:none;"><b>CAR</b></p></div>
+            <div id="B7" class ="slot" style="border-right: 0;margin-left: 463px;margin-top: 1px;">B7<br><p id="b7" style="display:none;"><b>CAR</b></p></div>
+
+            <div id="B2" class ="slot" style="border-left: 0;margin-left: 670px;margin-top: -379px;">B2<br><p id="b2" style="display:none;"><b>CAR</b></p></div>
+            <div id="B4" class ="slot" style="border-left: 0;margin-left: 670px;margin-top: 1px;">B4<br><p id="b4" style="display:none;"><b>CAR</b></p></div>
+            <div id="B6" class ="slot" style="border-left: 0;margin-left: 670px;margin-top: 1px;">B6<br><p id="b6" style="display:none;"><b>CAR</b></p></div>
+            <div id="B8" class ="slot" style="border-left: 0;margin-left: 670px;margin-top: 1px;">B8<br><p id="b8" style="display:none;"><b>CAR</b></p></div>
+
+        </div>
+        <div id="entry" style="margin-left: 270px;margin-top:-5px;border: 5px solid white;width: 90px;color: red;text-align: center;">EXIT &#8595</div>
+        <div id="entry" style="margin-left: 1070px;margin-top:-28px;border: 5px solid white;width: 90px;color: red;text-align: center;">ENTRY &#8593</div>
+    </body>
+</html>
